@@ -1,0 +1,440 @@
+/* mulish-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/mulish-v13-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* mulish-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/mulish-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* mulish-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/mulish-v13-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* mulish-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/mulish-v13-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 0px 8px  rgb(148, 146, 146);
+    background-color: white;
+    z-index: 999;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list{
+    display: flex;
+    gap: 30px;
+}
+.header__link {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: -0.5002105832099915px;
+    text-align: right;
+    color:black;
+    transition: all 0.7s ease;
+    position: relative; 
+    display: inline-block;
+}
+.header__link::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color:blue;
+    transform: scaleX(0); 
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+.header__link:hover::after {
+    transform: scaleX(1); 
+    background-color:blue; 
+}
+.header__link:hover{
+    transform: scale(1.1);
+    color: blue;
+}
+
+/* -----------------------------------------------------------hero--------------------------------------------------------------------- */
+
+.hero__container{
+    margin-top: 100px;
+}
+.hero__list{
+    align-items: center;
+    display: flex;
+    gap: 50px;
+}
+.hero__title{
+    font-family: "Muli" ,sans-serif;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: left;
+    color: #000000;
+    width: 427px;
+    height: 112px;   
+}
+.hero__text{
+    margin-top: 20px;
+    font-family: "Muli" ,sans-serif;
+    font-size: 21px;
+    line-height: 32px;
+    text-align: left;
+    color: #7D7987;
+    width: 445px;
+    height: 96px;    
+}
+.hero__btn{
+    margin-top: 50px;
+    font-family:  "Muli" ,sans-serif;
+    font-size: 18px;
+    line-height: 60px;
+    text-align: left;
+    padding: 1px 80px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: transparent;
+    color: blue;
+    border:  1px solid blue;
+}
+.hero__btn:hover{
+   border:1px solid blue;
+   background: blue;
+   transition: 0.5s;
+   color: #FFFF;
+   border-radius: 30px;
+   transform: scale(1.1);
+}
+
+/* --------------------------------------------------------------------------wrapper----------------------------------------------------------- */
+
+.wrapper__container{
+    text-align: center;
+}
+.wrapper__hr{
+    width: 70px;
+    margin-left: 550px;
+    margin-top: 20px;
+    height: 3px;
+    background: black;
+    border: 1px solid black;
+}
+.wrapper__title{
+    font-family: "Muli" ,sans-serif;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+}
+.wrapper__text{
+    margin-top: 20px;
+    margin-left: 100px;
+    font-family: "Muli" ,sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #7D7987;
+    width: 952px;
+    height: 60px;        
+}
+
+/* ---------------------------------------------------------hover------------------------------------------------------------------- */
+
+.hover__list{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-left: 70px;
+}
+.hover__item{
+    background-color: transparent;
+    width: 320px;
+    height: 350px;
+    border: 1px solid #FFFF;
+    border-radius: 10px;
+    box-shadow: 0px 1px 50px 4px rgb(185, 185, 183);
+}
+.hover__item:hover{
+    transition: 0.9s;
+    transform: scale(1.1);
+ }
+.hover__img{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.hover__title{
+    font-family: "Muli" ,sans-serif;
+    font-size: 24px;
+    line-height: 56px;
+    text-align: left;  
+    color: #000000;  
+    width: 196px;
+    height: 56px;
+    margin-top: 10px;
+    margin-left: 20px; 
+}
+.hover__text{
+    font-family: "Muli" ,sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;   
+    color: #7D7987; 
+    width: 261px;
+    height: 84px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.hover__btn{
+    margin-top: 50px;
+    margin-left: 500px;
+    font-family:  "Muli" ,sans-serif;
+    font-size: 18px;
+    line-height: 60px;
+    text-align: left;
+    padding: 1px 80px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: transparent;
+    color: blue;
+    border:  1px solid blue;
+}
+.hover__btn:hover{
+   border:1px solid blue;
+   background: blue;
+   transition: 0.5s;
+   color: #FFFF;
+   border-radius: 30px;
+   transform: scale(1.1);
+}
+
+
+/* --------------------------------------------------------main------------------------------------------------------------------------------- */
+
+.main__list{
+    margin-top: 100px;
+    gap: 100px;
+    display: flex;
+    align-items: center;
+}
+.main__title{
+    width: 400px;
+    height: 112px;
+    font-family: "Muli" ,sans-serif;
+    font-size: 36px;
+    line-height: 56px;
+    text-align: left;
+    color: #000000;
+}
+.main__hr{
+    width: 60px;
+    height: 2px;
+    margin-top: 10px;
+}
+.main__text{
+    margin-top: 20px;
+    font-family: Muli;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+    width: 450px;
+    height: 120px;
+    color: #7D7987;  
+}
+.main__btn{
+    margin-top: 50px;
+    font-family:  "Muli" ,sans-serif;
+    font-size: 18px;
+    line-height: 60px;
+    text-align: left;
+    padding: 1px 60px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: transparent;
+    color: blue;
+    border:  1px solid blue;
+}
+.main__btn:hover{
+   border:1px solid blue;
+   background: blue;
+   transition: 0.5s;
+   color: #FFFF;
+   border-radius: 30px;
+   transform: scale(1.1);
+}
+
+/* --------------------------------------------------------------second---------------------------------------------------------------- */
+
+.second__container{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.second__title{
+    width: 400px;
+    height: 112px;
+    font-family: "Muli" ,sans-serif;
+    font-size: 36px;
+    line-height: 56px;
+    text-align: left;
+    color: #000000;
+}
+.second__hr{
+    width: 60px;
+    height: 2px;
+    margin-top: 10px;
+}
+.second__text{
+    margin-top: 20px;
+    font-family: Muli;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+    width: 450px;
+    height: 120px;
+    color: #7D7987;  
+}
+.second__btn{
+    margin-top: 50px;
+    font-family:  "Muli" ,sans-serif;
+    font-size: 18px;
+    line-height: 60px;
+    text-align: left;
+    padding: 1px 60px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: transparent;
+    color: blue;
+    border:  1px solid blue;
+}
+.second__btn:hover{
+   border:1px solid blue;
+   background: blue;
+   transition: 0.5s;
+   color: #FFFF;
+   border-radius: 30px;
+   transform: scale(1.1);
+}
+.second__img{
+    margin-left: 10px;
+}
+
+/* ----------------------------------------------------------------------------gren----------------------------------------------------- */
+
+.gren__container{
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    border-radius: 30px;
+}
+.gren__title{
+    font-family: "Mulish" ,sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;    
+    color: #FFFFFF;
+}
+.gren__hr{
+    width: 100px;
+    height: 2px;
+    margin-left: 550px;
+    margin-top: 20px;
+}
+.gren__img{
+   position: absolute;
+   right: 1px;
+   top: 1px;
+}
+.gren__list{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 60px;
+}
+.gren__title-a{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: "Mulish" ,sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;    
+    color: #FFFFFF;
+}
+.gren__text{
+    margin-left: 40px;
+    font-family: "Mulish" ,sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    width: 420px;
+    height: 120px;
+    color: #FFFFFFE5;
+}
+
+.gren__text-a{
+    font-family: "Mulish" ,sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left; 
+    width: 350px;
+    color: #FFFFFFE5;
+    margin-left: 20px;
+}
+
+/* -------------------------------------------------------------------look--------------------------------------------------------------- */
+
+.look__container{
+    text-align: center;
+}
+
+/* -------------------------------------------------------------------value--------------------------------------------------------------- */
+
+.value__container{
+    text-align: center;
+}
+.value__hr{
+    width: 100px;
+    margin-left: 550px;
+    margin-top: 20px;
+}
