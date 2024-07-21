@@ -137,10 +137,10 @@
 .hero__btn:hover{
    border:1px solid blue;
    background: blue;
-   transition: 0.5s;
+   transition: 1s;
    color: #FFFF;
    border-radius: 30px;
-   transform: scale(1.1);
+   transform: scale(0.95);
 }
 
 /* --------------------------------------------------------------------------wrapper----------------------------------------------------------- */
