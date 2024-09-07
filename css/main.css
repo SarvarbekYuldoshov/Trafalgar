@@ -193,7 +193,7 @@
 }
 .hover__item:hover{
     transition: 0.9s;
-    transform: scale(1.1);
+    transform: scale(0.98);
  }
 .hover__img{
     margin-top: 25px;
