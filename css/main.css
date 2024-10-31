@@ -238,7 +238,7 @@
 }
 .hover__btn:hover{
    border:1px solid blue;
-   background: blue;
+   background: rgb(8, 8, 252);
    transition: 0.5s;
    color: #FFFF;
    border-radius: 30px;
