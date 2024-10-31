@@ -137,7 +137,7 @@
 }
 .hero__btn:hover{
    border:1px solid rgb(7, 7, 252);
-   background: blue;
+   background: rgb(5, 5, 247);
    transition: 1s;
    color: #FFFF;
    border-radius: 30px;
