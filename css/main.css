@@ -237,7 +237,7 @@
     border:  1px solid rgb(10, 10, 254);
 }
 .hover__btn:hover{
-   border:1px solid blue;
+   border:1px solid rgb(5, 5, 237);
    background: rgb(8, 8, 252);
    transition: 0.5s;
    color: #FFFF;
