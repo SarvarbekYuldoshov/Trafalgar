@@ -234,7 +234,7 @@
     border-radius: 30px;
     background-color: transparent;
     color: blue;
-    border:  1px solid blue;
+    border:  1px solid rgb(10, 10, 254);
 }
 .hover__btn:hover{
    border:1px solid blue;
