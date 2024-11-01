@@ -294,7 +294,7 @@
 }
 .main__btn:hover{
    border:1px solid rgb(6, 6, 254);
-   background: blue;
+   background: rgb(9, 9, 250);
    transition: 0.5s;
    color: #FFFF;
    border-radius: 30px;
