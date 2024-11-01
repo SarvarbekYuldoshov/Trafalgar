@@ -290,7 +290,7 @@
     border-radius: 30px;
     background-color: transparent;
     color: rgb(13, 13, 253);
-    border:  1px solid blue;
+    border:  1px solid rgb(12, 12, 248);
 }
 .main__btn:hover{
    border:1px solid blue;
