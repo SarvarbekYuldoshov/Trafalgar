@@ -293,7 +293,7 @@
     border:  1px solid rgb(12, 12, 248);
 }
 .main__btn:hover{
-   border:1px solid blue;
+   border:1px solid rgb(6, 6, 254);
    background: blue;
    transition: 0.5s;
    color: #FFFF;
