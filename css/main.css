@@ -349,7 +349,7 @@
 }
 .second__btn:hover{
    border:1px solid rgb(20, 20, 250);
-   background: blue;
+   background: rgb(6, 6, 254);
    transition: 0.5s;
    color: #FFFF;
    border-radius: 30px;
