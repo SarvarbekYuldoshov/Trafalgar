@@ -348,7 +348,7 @@
     border:  1px solid rgb(10, 10, 249);
 }
 .second__btn:hover{
-   border:1px solid blue;
+   border:1px solid rgb(20, 20, 250);
    background: blue;
    transition: 0.5s;
    color: #FFFF;
