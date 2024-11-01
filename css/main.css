@@ -345,7 +345,7 @@
     border-radius: 30px;
     background-color: transparent;
     color: rgb(15, 15, 248);
-    border:  1px solid blue;
+    border:  1px solid rgb(10, 10, 249);
 }
 .second__btn:hover{
    border:1px solid blue;
