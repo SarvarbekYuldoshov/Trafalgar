@@ -391,7 +391,7 @@
     display: flex;
     margin-top: 51px;
     margin-left: 50px;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
 }
 .gren__title-a{
     margin-top: 10px;
